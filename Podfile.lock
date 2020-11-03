@@ -1,5 +1,5 @@
 PODS:
-  - NSR_SDK_v3_swift (3.0.5)
+  - NSR_SDK_v3_swift (3.0.6)
 
 DEPENDENCIES:
   - NSR_SDK_v3_swift
@@ -9,7 +9,7 @@ SPEC REPOS:
     - NSR_SDK_v3_swift
 
 SPEC CHECKSUMS:
-  NSR_SDK_v3_swift: 4731f29c8a351f9e2abbececf33328f1552be6fe
+  NSR_SDK_v3_swift: a56da8fd67144d8b9f541afbccfaded122519f25
 
 PODFILE CHECKSUM: fd4df552da1b1a8712ceef7487201521f253c4d2
 
