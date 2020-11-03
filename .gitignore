@@ -1,0 +1,10 @@
+/build
+.DS_Store
+config.properties
+./config.private.plist
+./config.plist
+.iml
+local.properties
+.gradle
+.idea
+

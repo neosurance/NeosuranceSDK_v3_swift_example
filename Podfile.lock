@@ -1,0 +1,16 @@
+PODS:
+  - NSR_SDK_v3_swift (3.0.5)
+
+DEPENDENCIES:
+  - NSR_SDK_v3_swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NSR_SDK_v3_swift
+
+SPEC CHECKSUMS:
+  NSR_SDK_v3_swift: 4731f29c8a351f9e2abbececf33328f1552be6fe
+
+PODFILE CHECKSUM: fd4df552da1b1a8712ceef7487201521f253c4d2
+
+COCOAPODS: 1.7.2

@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E1FAF485776727A5989A809CE2F914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1085D49ED8A765A8EF98483F43086C24 /* eventCruncher.html in Resources */ = {isa = PBXBuildFile; fileRef = 6D690A7E576B487A4163BA085897FCB5 /* eventCruncher.html */; };
+		39E4601DCBDCDA729AD07CA0C99D354E /* NSRControllerWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C478328C6698F9A7A16E1E66E8FFF7 /* NSRControllerWebView.swift */; };
+		3B7F73E905B467B5CEA78FCABB6E71BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4EF6516349BBD2FADAD022664AC8AD74 /* NSRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82447FA88BFCD1D2D92353FF60E8E8D /* NSRUser.swift */; };
+		5120F34C25B8C26894D4EADE9899BA3C /* NSR_SDK_v3_swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2638B88BD419AAA6BD433E89D1F57D28 /* NSR_SDK_v3_swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BB24EB647F29F6DD0FB3A8F0669DE08 /* NSR_SDK_v3_swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB352C571F34359BB96446836C2ADBE3 /* NSR_SDK_v3_swift-dummy.m */; };
+		6BFC5F7ACC501E7029A979A175F78A18 /* NSR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A9F41AB347434B460EB05776E0373 /* NSR.swift */; };
+		6EB5D738C3FC4CFE51834B233D12FC01 /* NSRDefaultSecurityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15160AB7627DC570867AEF6609A66C69 /* NSRDefaultSecurityDelegate.swift */; };
+		6F62C96C9A43B69F715CCC0567E24A70 /* Pods-NSR SDK SwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B12A2E73495CA884B4157C6ECDB3640 /* Pods-NSR SDK SwiftExample-dummy.m */; };
+		7B47D725C01A8AA5430FAA79536AF7B6 /* NSRWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D36BED6E36ECC2801F34C33DEC388 /* NSRWebView.swift */; };
+		7F9B79CFA55FB711E600970242D0C9DB /* NSR.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DFDCF001E01FC5CE64B450520058A13 /* NSR.bundle */; };
+		83A0510389BB5F64FE64A425B3DEE7CD /* NSREventWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43DE72FBA023B23CC0A6862828933C /* NSREventWebView.swift */; };
+		CB4802B5BE33C1BA05BC80D193C81D04 /* NSR_push.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C422FC7AE71D2BE69E041A9EBD111C8 /* NSR_push.wav */; };
+		D3C9DEC6FE765649C9D7B4A404A092B8 /* Pods-NSR SDK SwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9DFB3967101E6BE0A5A09AE4B4F31D /* Pods-NSR SDK SwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01AE0165A4C7DD01B1451C9DE82701A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79520E313327550A16823E5A9E573F09;
+			remoteInfo = NSR_SDK_v3_swift;
+		};
+		CD54796D009E2D4C645D0918D7E9F5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B471567E4F58A0B03AC79A3C8EE02E0;
+			remoteInfo = "NSR_SDK_v3_swift-NSR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003A912B0F5F42853758DA08F942641C /* Pods-NSR SDK SwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSR SDK SwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		13DF837892ED079248BAB33D5E30A3F8 /* Pods-NSR SDK SwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSR SDK SwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15160AB7627DC570867AEF6609A66C69 /* NSRDefaultSecurityDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSRDefaultSecurityDelegate.swift; path = Classes/NSRDefaultSecurityDelegate.swift; sourceTree = "<group>"; };
+		1C9DFB3967101E6BE0A5A09AE4B4F31D /* Pods-NSR SDK SwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSR SDK SwiftExample-umbrella.h"; sourceTree = "<group>"; };
+		1DFDCF001E01FC5CE64B450520058A13 /* NSR.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NSR.bundle; path = "NSR_SDK_v3_swift-NSR.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2638B88BD419AAA6BD433E89D1F57D28 /* NSR_SDK_v3_swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSR_SDK_v3_swift-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E90205E70B743282C05D4784A5EC132 /* Pods-NSR SDK SwiftExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSR SDK SwiftExample-Info.plist"; sourceTree = "<group>"; };
+		4147B46B4F9A11C8F209A92A67E9D99B /* ResourceBundle-NSR-NSR_SDK_v3_swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NSR-NSR_SDK_v3_swift-Info.plist"; sourceTree = "<group>"; };
+		4B12A2E73495CA884B4157C6ECDB3640 /* Pods-NSR SDK SwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSR SDK SwiftExample-dummy.m"; sourceTree = "<group>"; };
+		4C422FC7AE71D2BE69E041A9EBD111C8 /* NSR_push.wav */ = {isa = PBXFileReference; includeInIndex = 1; name = NSR_push.wav; path = Assets/NSR_push.wav; sourceTree = "<group>"; };
+		683B7540474BAF9AC875CB045ADB35D3 /* NSR_SDK_v3_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSR_SDK_v3_swift.framework; path = NSR_SDK_v3_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D690A7E576B487A4163BA085897FCB5 /* eventCruncher.html */ = {isa = PBXFileReference; includeInIndex = 1; name = eventCruncher.html; path = Assets/eventCruncher.html; sourceTree = "<group>"; };
+		7732FC64529EBD03CAF4160C5DCEB165 /* NSR_SDK_v3_swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSR_SDK_v3_swift.xcconfig; sourceTree = "<group>"; };
+		7A9A9F41AB347434B460EB05776E0373 /* NSR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSR.swift; path = Classes/NSR.swift; sourceTree = "<group>"; };
+		7BE0FAFA14264F85CB3A2BBA2339CAB7 /* NSR_SDK_v3_swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSR_SDK_v3_swift-prefix.pch"; sourceTree = "<group>"; };
+		7C5D36BED6E36ECC2801F34C33DEC388 /* NSRWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSRWebView.swift; path = Classes/NSRWebView.swift; sourceTree = "<group>"; };
+		8B096CE9582C8EF45114194C5B2BFB6C /* Pods-NSR SDK SwiftExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSR SDK SwiftExample-frameworks.sh"; sourceTree = "<group>"; };
+		8C4FA2EF8C20B01D2543E6B6B79B9266 /* Pods-NSR SDK SwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSR SDK SwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB87C6D577D6AAC8E981724B5C2F814 /* Pods-NSR SDK SwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSR SDK SwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		AA27BD2DFB3F1EA965AF3EFDA91BB08D /* NSR_SDK_v3_swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSR_SDK_v3_swift-Info.plist"; sourceTree = "<group>"; };
+		B2C478328C6698F9A7A16E1E66E8FFF7 /* NSRControllerWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSRControllerWebView.swift; path = Classes/NSRControllerWebView.swift; sourceTree = "<group>"; };
+		C462FAE5C26C2EBACDDFFD6258724837 /* NSR_SDK_v3_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSR_SDK_v3_swift.modulemap; sourceTree = "<group>"; };
+		DB352C571F34359BB96446836C2ADBE3 /* NSR_SDK_v3_swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSR_SDK_v3_swift-dummy.m"; sourceTree = "<group>"; };
+		DD43DE72FBA023B23CC0A6862828933C /* NSREventWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSREventWebView.swift; path = Classes/NSREventWebView.swift; sourceTree = "<group>"; };
+		DD63EC0ACCE5F44566A3AE6DBD1BE71E /* Pods-NSR SDK SwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSR SDK SwiftExample.modulemap"; sourceTree = "<group>"; };
+		E08BD4129011D3E82084CAC365054BE5 /* Pods_NSR_SDK_SwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSR_SDK_SwiftExample.framework; path = "Pods-NSR SDK SwiftExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82447FA88BFCD1D2D92353FF60E8E8D /* NSRUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSRUser.swift; path = Classes/NSRUser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C585EB2F975BC97300DF1D6D11FB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7F73E905B467B5CEA78FCABB6E71BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AE54B2BF4EF8F4F239C8DF20A27FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E1FAF485776727A5989A809CE2F914 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9A7892A5A05009CF1444FED808AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0376F3B811BDC45AE326E88406950883 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D934BDF287C6CCB05934B4AF3367E /* NSR_SDK_v3_swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E9E7EB3CAB5E1E2BCBB9A05CBE52551 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59AA4476DD6004D8217A339954A28F38 /* Pods-NSR SDK SwiftExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E5D934BDF287C6CCB05934B4AF3367E /* NSR_SDK_v3_swift */ = {
+			isa = PBXGroup;
+			children = (
+				7A9A9F41AB347434B460EB05776E0373 /* NSR.swift */,
+				B2C478328C6698F9A7A16E1E66E8FFF7 /* NSRControllerWebView.swift */,
+				15160AB7627DC570867AEF6609A66C69 /* NSRDefaultSecurityDelegate.swift */,
+				DD43DE72FBA023B23CC0A6862828933C /* NSREventWebView.swift */,
+				E82447FA88BFCD1D2D92353FF60E8E8D /* NSRUser.swift */,
+				7C5D36BED6E36ECC2801F34C33DEC388 /* NSRWebView.swift */,
+				9D7BC8580F80C3509F510303C2B409EE /* Resources */,
+				C9B089B8C9A3547C41F5051C06D6BEA6 /* Support Files */,
+			);
+			name = NSR_SDK_v3_swift;
+			path = NSR_SDK_v3_swift;
+			sourceTree = "<group>";
+		};
+		59AA4476DD6004D8217A339954A28F38 /* Pods-NSR SDK SwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				DD63EC0ACCE5F44566A3AE6DBD1BE71E /* Pods-NSR SDK SwiftExample.modulemap */,
+				13DF837892ED079248BAB33D5E30A3F8 /* Pods-NSR SDK SwiftExample-acknowledgements.markdown */,
+				003A912B0F5F42853758DA08F942641C /* Pods-NSR SDK SwiftExample-acknowledgements.plist */,
+				4B12A2E73495CA884B4157C6ECDB3640 /* Pods-NSR SDK SwiftExample-dummy.m */,
+				8B096CE9582C8EF45114194C5B2BFB6C /* Pods-NSR SDK SwiftExample-frameworks.sh */,
+				3E90205E70B743282C05D4784A5EC132 /* Pods-NSR SDK SwiftExample-Info.plist */,
+				1C9DFB3967101E6BE0A5A09AE4B4F31D /* Pods-NSR SDK SwiftExample-umbrella.h */,
+				8C4FA2EF8C20B01D2543E6B6B79B9266 /* Pods-NSR SDK SwiftExample.debug.xcconfig */,
+				9DB87C6D577D6AAC8E981724B5C2F814 /* Pods-NSR SDK SwiftExample.release.xcconfig */,
+			);
+			name = "Pods-NSR SDK SwiftExample";
+			path = "Target Support Files/Pods-NSR SDK SwiftExample";
+			sourceTree = "<group>";
+		};
+		81B7A7EC4355C87E578BBFC5CA2E5A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DFDCF001E01FC5CE64B450520058A13 /* NSR.bundle */,
+				683B7540474BAF9AC875CB045ADB35D3 /* NSR_SDK_v3_swift.framework */,
+				E08BD4129011D3E82084CAC365054BE5 /* Pods_NSR_SDK_SwiftExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D7BC8580F80C3509F510303C2B409EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D690A7E576B487A4163BA085897FCB5 /* eventCruncher.html */,
+				4C422FC7AE71D2BE69E041A9EBD111C8 /* NSR_push.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9B089B8C9A3547C41F5051C06D6BEA6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C462FAE5C26C2EBACDDFFD6258724837 /* NSR_SDK_v3_swift.modulemap */,
+				7732FC64529EBD03CAF4160C5DCEB165 /* NSR_SDK_v3_swift.xcconfig */,
+				DB352C571F34359BB96446836C2ADBE3 /* NSR_SDK_v3_swift-dummy.m */,
+				AA27BD2DFB3F1EA965AF3EFDA91BB08D /* NSR_SDK_v3_swift-Info.plist */,
+				7BE0FAFA14264F85CB3A2BBA2339CAB7 /* NSR_SDK_v3_swift-prefix.pch */,
+				2638B88BD419AAA6BD433E89D1F57D28 /* NSR_SDK_v3_swift-umbrella.h */,
+				4147B46B4F9A11C8F209A92A67E9D99B /* ResourceBundle-NSR-NSR_SDK_v3_swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSR_SDK_v3_swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0376F3B811BDC45AE326E88406950883 /* Pods */,
+				81B7A7EC4355C87E578BBFC5CA2E5A61 /* Products */,
+				2E9E7EB3CAB5E1E2BCBB9A05CBE52551 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F289A2C90F6CB51186C067F2C1AD03D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C9DEC6FE765649C9D7B4A404A092B8 /* Pods-NSR SDK SwiftExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5D7E0A1E616F121EB09CA2D110BED6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5120F34C25B8C26894D4EADE9899BA3C /* NSR_SDK_v3_swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B471567E4F58A0B03AC79A3C8EE02E0 /* NSR_SDK_v3_swift-NSR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05541915C5D19A4DB182A7974FA0DF6B /* Build configuration list for PBXNativeTarget "NSR_SDK_v3_swift-NSR" */;
+			buildPhases = (
+				340FC1D06D8AD72F04EE3FC5F158B008 /* Sources */,
+				CAB9A7892A5A05009CF1444FED808AAA /* Frameworks */,
+				BDF72B3CD0178CC785E3C01128C8050C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSR_SDK_v3_swift-NSR";
+			productName = "NSR_SDK_v3_swift-NSR";
+			productReference = 1DFDCF001E01FC5CE64B450520058A13 /* NSR.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6A302C2884087D9EE71D0B8F092EEFE7 /* Pods-NSR SDK SwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAEE538D1DFCCF1262287680D14F342 /* Build configuration list for PBXNativeTarget "Pods-NSR SDK SwiftExample" */;
+			buildPhases = (
+				7F289A2C90F6CB51186C067F2C1AD03D /* Headers */,
+				4DE0C53171B3E13679911DAE4BBF39A7 /* Sources */,
+				A9C585EB2F975BC97300DF1D6D11FB2C /* Frameworks */,
+				BFF3E74042DB9247E55F494157EC9A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED380C4452BCD1A65DF622B788E7CC9E /* PBXTargetDependency */,
+			);
+			name = "Pods-NSR SDK SwiftExample";
+			productName = "Pods-NSR SDK SwiftExample";
+			productReference = E08BD4129011D3E82084CAC365054BE5 /* Pods_NSR_SDK_SwiftExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79520E313327550A16823E5A9E573F09 /* NSR_SDK_v3_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13220D63F56B1FD10EBFD630CA5BDEF1 /* Build configuration list for PBXNativeTarget "NSR_SDK_v3_swift" */;
+			buildPhases = (
+				DA5D7E0A1E616F121EB09CA2D110BED6 /* Headers */,
+				BAB16B1E8C82BBDEC70373D3F95456FB /* Sources */,
+				C4AE54B2BF4EF8F4F239C8DF20A27FF1 /* Frameworks */,
+				2A9C53D0EC59BC92638F71E64B17E61E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4C63B8F8A528C608752619E37D18D1C /* PBXTargetDependency */,
+			);
+			name = NSR_SDK_v3_swift;
+			productName = NSR_SDK_v3_swift;
+			productReference = 683B7540474BAF9AC875CB045ADB35D3 /* NSR_SDK_v3_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 81B7A7EC4355C87E578BBFC5CA2E5A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79520E313327550A16823E5A9E573F09 /* NSR_SDK_v3_swift */,
+				1B471567E4F58A0B03AC79A3C8EE02E0 /* NSR_SDK_v3_swift-NSR */,
+				6A302C2884087D9EE71D0B8F092EEFE7 /* Pods-NSR SDK SwiftExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9C53D0EC59BC92638F71E64B17E61E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9B79CFA55FB711E600970242D0C9DB /* NSR.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF72B3CD0178CC785E3C01128C8050C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085D49ED8A765A8EF98483F43086C24 /* eventCruncher.html in Resources */,
+				CB4802B5BE33C1BA05BC80D193C81D04 /* NSR_push.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF3E74042DB9247E55F494157EC9A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		340FC1D06D8AD72F04EE3FC5F158B008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE0C53171B3E13679911DAE4BBF39A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F62C96C9A43B69F715CCC0567E24A70 /* Pods-NSR SDK SwiftExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB16B1E8C82BBDEC70373D3F95456FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFC5F7ACC501E7029A979A175F78A18 /* NSR.swift in Sources */,
+				6BB24EB647F29F6DD0FB3A8F0669DE08 /* NSR_SDK_v3_swift-dummy.m in Sources */,
+				39E4601DCBDCDA729AD07CA0C99D354E /* NSRControllerWebView.swift in Sources */,
+				6EB5D738C3FC4CFE51834B233D12FC01 /* NSRDefaultSecurityDelegate.swift in Sources */,
+				83A0510389BB5F64FE64A425B3DEE7CD /* NSREventWebView.swift in Sources */,
+				4EF6516349BBD2FADAD022664AC8AD74 /* NSRUser.swift in Sources */,
+				7B47D725C01A8AA5430FAA79536AF7B6 /* NSRWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4C63B8F8A528C608752619E37D18D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSR_SDK_v3_swift-NSR";
+			target = 1B471567E4F58A0B03AC79A3C8EE02E0 /* NSR_SDK_v3_swift-NSR */;
+			targetProxy = CD54796D009E2D4C645D0918D7E9F5AA /* PBXContainerItemProxy */;
+		};
+		ED380C4452BCD1A65DF622B788E7CC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSR_SDK_v3_swift;
+			target = 79520E313327550A16823E5A9E573F09 /* NSR_SDK_v3_swift */;
+			targetProxy = 01AE0165A4C7DD01B1451C9DE82701A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A2B30F420BD6FD0B019CEAB30D2017E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7732FC64529EBD03CAF4160C5DCEB165 /* NSR_SDK_v3_swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSR_SDK_v3_swift";
+				INFOPLIST_FILE = "Target Support Files/NSR_SDK_v3_swift/ResourceBundle-NSR-NSR_SDK_v3_swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = NSR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1489B3CBDC2BEA956337E421E0D22385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7732FC64529EBD03CAF4160C5DCEB165 /* NSR_SDK_v3_swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSR_SDK_v3_swift";
+				INFOPLIST_FILE = "Target Support Files/NSR_SDK_v3_swift/ResourceBundle-NSR-NSR_SDK_v3_swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = NSR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2314EDEC5BEE92CC7E19151E104E2D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB87C6D577D6AAC8E981724B5C2F814 /* Pods-NSR SDK SwiftExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSR SDK SwiftExample/Pods-NSR SDK SwiftExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSR SDK SwiftExample/Pods-NSR SDK SwiftExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		76E9437AD8ACFB35DA049DDD6FA6CD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4FA2EF8C20B01D2543E6B6B79B9266 /* Pods-NSR SDK SwiftExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSR SDK SwiftExample/Pods-NSR SDK SwiftExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSR SDK SwiftExample/Pods-NSR SDK SwiftExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98AD9BC0E88E698D685FCE9F404D152A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7732FC64529EBD03CAF4160C5DCEB165 /* NSR_SDK_v3_swift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSR_SDK_v3_swift/NSR_SDK_v3_swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSR_SDK_v3_swift/NSR_SDK_v3_swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NSR_SDK_v3_swift/NSR_SDK_v3_swift.modulemap";
+				PRODUCT_MODULE_NAME = NSR_SDK_v3_swift;
+				PRODUCT_NAME = NSR_SDK_v3_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D997654608DF3CE0A39FDBCED9CA3033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7732FC64529EBD03CAF4160C5DCEB165 /* NSR_SDK_v3_swift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSR_SDK_v3_swift/NSR_SDK_v3_swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSR_SDK_v3_swift/NSR_SDK_v3_swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NSR_SDK_v3_swift/NSR_SDK_v3_swift.modulemap";
+				PRODUCT_MODULE_NAME = NSR_SDK_v3_swift;
+				PRODUCT_NAME = NSR_SDK_v3_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05541915C5D19A4DB182A7974FA0DF6B /* Build configuration list for PBXNativeTarget "NSR_SDK_v3_swift-NSR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2B30F420BD6FD0B019CEAB30D2017E /* Debug */,
+				1489B3CBDC2BEA956337E421E0D22385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAEE538D1DFCCF1262287680D14F342 /* Build configuration list for PBXNativeTarget "Pods-NSR SDK SwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E9437AD8ACFB35DA049DDD6FA6CD0C /* Debug */,
+				2314EDEC5BEE92CC7E19151E104E2D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13220D63F56B1FD10EBFD630CA5BDEF1 /* Build configuration list for PBXNativeTarget "NSR_SDK_v3_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AD9BC0E88E698D685FCE9F404D152A /* Debug */,
+				D997654608DF3CE0A39FDBCED9CA3033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

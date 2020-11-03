@@ -1,0 +1,6 @@
+framework module NSR_SDK_v3_swift {
+  umbrella header "NSR_SDK_v3_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

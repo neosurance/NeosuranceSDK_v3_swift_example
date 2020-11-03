@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<style>
+
+body {
+    
+}
+.communities-title{
+    padding-top: 20px;
+    font-size:20px;
+}
+.communities-title-class{
+    text-align:left;
+    margin: 0px;
+    padding:10px;
+    font-size: 16px;
+    width: 100%;
+}
+button {	
+	margin: 10px;
+	font-size: 16px;
+	width: 75%;
+}
+</style>
+<script>
+	function exec(what) {
+		window.webkit.messageHandlers.app.postMessage({
+			what : what
+		})
+	}
+</script>
+</head>
+<body>
+	<center>
+        <p class="communities-title">NSR SDK SwiftExample</p>
+        <p class="communities-title-class">NSR_SDK: v3_iOS_swift</p>
+        <p class="communities-title-class">Version: 3.0.0</p>
+        <p class="communities-title-class">Community: (Sandbox)</p>
+        <br>
+        <button onclick="exec('setup')">setup</button>
+		<br>
+		<button onclick="exec('registerUser')">registerUser</button>
+		<br>
+		<button onclick="exec('showApp')">showApp</button>
+		<br>
+        <button onclick="exec('sendEvent')">sendEvent: ondemand</button>
+        <br>
+        <button onclick="exec('sendEventPush')">sendEventPush: testpush</button>
+        <br>
+		<button onclick="exec('appLogin')">appLogin</button>
+		<br>
+		<button onclick="exec('appPayment')">appPayment</button>
+		<br>
+		<button onclick="exec('resetCruncher')">resetCruncher</button>
+		<br>
+		<button onclick="exec('forgetUser')">forgetUser</button>
+		<br>
+	</center>
+</body>
+</html>
