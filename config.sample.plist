@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>base_url</key>
+	<string>base_url</string>
+	<key>code</key>
+	<string>code</string>
+	<key>secret_key</key>
+	<string>secret_key</string>
+	<key>user.email</key>
+	<string>user_email</string>
+	<key>user.code</key>
+	<string>user_code</string>
+	<key>user.firstname</key>
+	<string>user_firstname</string>
+	<key>user.lastname</key>
+	<string>user_lastname</string>
+	<key>user.fiscalCode</key>
+	<string>user_fiscalCode</string>
+	<key>user.stateProvince</key>
+	<string>user_stateProvince</string>
+	<key>user.city</key>
+	<string>user_city</string>
+	<key>user.address</key>
+	<string>user_address</string>
+	<key>user.zipCode</key>
+	<string>user_zipCode</string>
+	<key>user.country</key>
+	<string>user_country</string>
+	<key>user.gender</key>
+	<string>user_gender</string>
+	<key>user.birthday</key>
+	<string>user_birthday</string>
+	<key>user.mobile</key>
+	<string>user_mobile</string>
+	<key>user.extra</key>
+	<string>user_extra</string>
+</dict>
+</plist>
