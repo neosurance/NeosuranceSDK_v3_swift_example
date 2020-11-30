@@ -1,0 +1,6 @@
+/build
+.DS_Store
+config.plist
+Podfile.lock
+Pods
+config.plist
