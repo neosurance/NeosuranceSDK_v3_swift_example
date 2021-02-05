@@ -29,4 +29,8 @@ class WFDelegate: NSObject, NSRWorkflowDelegate{
         print("keepAlive")
     }
     
+    func goTo(area: String){
+        print("goTo: " + area)
+    }
+    
 }

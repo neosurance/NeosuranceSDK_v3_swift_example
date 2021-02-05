@@ -124,6 +124,7 @@ pod install
 	    func executePayment(payment: NSDictionary, url: String)->(NSDictionary)
 	    func confirmTransaction(paymentInfo: NSDictionary)->()
 	    func keepAlive()->()
+		func goTo(area: String)->()
 	}
 	```
 
@@ -240,7 +241,7 @@ pod install
 ## Usage (Sample Demo Flow)
 1. Tap on button => *"Setup"* (see 1. [setup](#setup))
 2. Tap on button => *"registerUser"* (see 5. [registerUser](#register-user))
-3. [4.] Tap on button => *"sendEvent: ondemand"* (and/or *"sendEventPush: testpush"*) (see 9. [sendEvent](#send-event))
+3. [4.] Tap on button => *"sendEvent: ..."* (and/or *"sendEventPush: ..."*) (see 9. [sendEvent](#send-event))
 4. [3.] Tap on button => *"showApp"* In order to show "Purchases List" or "buy a new insurance policy"(just tapping on the title)) (see 7. [showApp](#show-app))	
 	
 ## Author

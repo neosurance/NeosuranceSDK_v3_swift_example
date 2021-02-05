@@ -21,6 +21,7 @@ public protocol NSRWorkflowDelegate: NSObject{
     func executePayment(payment: NSDictionary, url: String)->(NSDictionary)
     func confirmTransaction(paymentInfo: NSDictionary)->()
     func keepAlive()->()
+	func goTo(area: String)->()
 }
 
 public class NSR: NSObject, CLLocationManagerDelegate{
@@ -709,6 +710,32 @@ public class NSR: NSObject, CLLocationManagerDelegate{
         
     }
     
+    public func policies(criteria: NSDictionary, completionHandler: @escaping(_ responseObject: NSDictionary, _ error: NSError?)->()){
+         
+        print("sendEvent criteria ", criteria);
+        
+        /* Authorize */
+        self.authorize(completionHandler: { authorized in
+            
+            if(!authorized){
+                return
+            }
+            
+            /* REQUEST_PAYLOAD */
+            let requestPayload = NSMutableDictionary()
+            requestPayload.setObject(criteria, forKey: "criteria" as NSCopying)
+            
+            /* REQUEST_HEADERS */
+            let headers = NSMutableDictionary()
+            headers.setObject(self.getToken(), forKey: "ns_token" as NSCopying)
+            headers.setObject(self.getLang(), forKey: "ns_lang" as NSCopying)
+            
+            self.securityDelegate.secureRequest(endpoint: "policies", payload: requestPayload, headers: headers, completionHandler: completionHandler)
+            
+        })
+        
+    }
+    
     public func archiveEvent(event: String, payload: NSDictionary){
     
         print("archiveEvent event " + event)
@@ -1032,6 +1059,12 @@ public class NSR: NSObject, CLLocationManagerDelegate{
     
     
     /* *** WEB_VIEW *** */
+    
+    public func closeView(){
+        if(self.controllerWebView != nil){
+            self.controllerWebView.close()
+        }
+    }
     
     public func registerWebView(newWebView: NSRControllerWebView){
         if(self.controllerWebView != nil){
@@ -1495,7 +1528,7 @@ public class NSR: NSObject, CLLocationManagerDelegate{
     }
     
     public func version()->String{
-        return "3.0.0"
+        return "3.0.1"
     }
     
     public func os()->String{

@@ -19,9 +19,9 @@ public class NSRUser: NSObject{
     public var gender: String!
     public var birthday: Date!
     public var address: String!
-    public var zipCode: String!
+    public var cap: String!
     public var city: String!
-    public var stateProvince: String!
+    public var province: String!
     public var country: String!
     public var extra: NSDictionary!
     public var locals: NSDictionary!
@@ -63,14 +63,14 @@ public class NSRUser: NSObject{
         if(dict.object(forKey:"address") != nil) {
             self.address = (dict.object(forKey:"address") as! String)
         }
-        if(dict.object(forKey:"zipCode") != nil) {
-            self.zipCode = (dict.object(forKey:"zipCode") as! String)
+        if(dict.object(forKey:"cap") != nil) {
+            self.cap = (dict.object(forKey:"cap") as! String)
         }
         if(dict.object(forKey:"city") != nil) {
             self.city = (dict.object(forKey:"city") as! String)
         }
-        if(dict.object(forKey:"stateProvince") != nil) {
-            self.stateProvince = (dict.object(forKey:"stateProvince") as! String)
+        if(dict.object(forKey:"province") != nil) {
+            self.province = (dict.object(forKey:"province") as! String)
         }
         if(dict.object(forKey:"country") != nil) {
             self.country = (dict.object(forKey:"country") as! String)
@@ -118,14 +118,14 @@ public class NSRUser: NSObject{
         if(self.address != nil) {
             dict.setObject(self.address ?? "", forKey: "address" as NSCopying)
         }
-        if(self.zipCode != nil) {
-            dict.setObject(self.zipCode ?? "", forKey: "zipCode" as NSCopying)
+        if(self.cap != nil) {
+            dict.setObject(self.cap ?? "", forKey: "cap" as NSCopying)
         }
         if(self.city != nil) {
             dict.setObject(self.city ?? "", forKey: "city" as NSCopying)
         }
-        if(self.stateProvince != nil) {
-            dict.setObject(self.stateProvince ?? "", forKey: "stateProvince" as NSCopying)
+        if(self.province != nil) {
+            dict.setObject(self.province ?? "", forKey: "province" as NSCopying)
         }
         if(self.country != nil) {
             dict.setObject(self.country ?? "", forKey: "country" as NSCopying)

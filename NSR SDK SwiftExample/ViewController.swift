@@ -69,6 +69,25 @@ class ViewController: UIViewController, WKScriptMessageHandler {
                 let nsr = NSR.getSharedInstance()
                 nsr.crunchEvent(event: "openPage", payload: NSMutableDictionary())
             }
+            if("closeView" == WHAT) {
+                let nsr = NSR.getSharedInstance()
+                nsr.closeView()
+            }
+            if("policies" == WHAT) {
+                
+                let criteria = NSMutableDictionary()
+                criteria.setObject(true, forKey: "available" as NSCopying)
+                
+                let nsr = NSR.getSharedInstance()
+                nsr.policies(criteria: criteria, completionHandler: { responseObject, error in
+                    if (error == nil) {
+                        print("policies response: ", nsr.dictToJson(dict: responseObject))
+                    } else {
+                        print("policies error: ", error ?? "default error in policies");
+                    }
+                })
+            }
+            
         }
     }
     
@@ -216,11 +235,11 @@ class ViewController: UIViewController, WKScriptMessageHandler {
         user.fiscalCode = (self.config["user.fiscalCode"] as! String)
         user.address = (self.config["user.address"] as! String)
         user.city = (self.config["user.city"] as! String)
-        user.stateProvince = (self.config["user.stateProvince"] as! String)
+        user.province = (self.config["user.province"] as! String)
         //user.mobile = (self.config["user.mobile"] as! String)
         //user.gender = (self.config["user.gender"] as! String)
         //user.birthday = (self.config["user.birthday"] as! Date)
-        //user.zipCode = (self.config["user.zipCode"] as! String)
+        user.cap = (self.config["user.cap"] as! String)
         //user.extra = (self.config["user.extra"] as! NSDictionary)
         
         
@@ -231,11 +250,14 @@ class ViewController: UIViewController, WKScriptMessageHandler {
         locals.setObject(user.fiscalCode ?? "", forKey:"fiscalCode" as NSCopying)
         locals.setObject(user.address ?? "", forKey:"address" as NSCopying)
         locals.setObject(user.city ?? "", forKey:"city" as NSCopying)
-        locals.setObject(user.stateProvince ?? "", forKey:"stateProvince" as NSCopying)
+        locals.setObject(user.province ?? "", forKey:"province" as NSCopying)
         locals.setObject("fake-push", forKey:"pushToken" as NSCopying)
-                
-        user.locals = locals
-        //user.setValue(locals, forKey: "locals")
+        
+        if (self.config["user.locals"] as? String) != nil{
+            user.locals = locals
+            //user.setValue(locals, forKey: "locals")
+        }
+        
         
         
         
@@ -309,7 +331,7 @@ class ViewController: UIViewController, WKScriptMessageHandler {
     func sendEventPush(){
         print("Send Event Push")
         let payload = NSMutableDictionary()
-        NSR.getSharedInstance().sendEvent(event:"testpush", payload:payload)
+        NSR.getSharedInstance().sendEvent(event:"inpoi", payload:payload)
     }
 
     func sendEventPush2(){

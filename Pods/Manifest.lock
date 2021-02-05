@@ -1,16 +1,16 @@
 PODS:
-  - NSR_SDK_v3_swift (3.0.6)
+  - NSR_SDK_v3_swift (3.1.0)
 
 DEPENDENCIES:
   - NSR_SDK_v3_swift
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - NSR_SDK_v3_swift
 
 SPEC CHECKSUMS:
-  NSR_SDK_v3_swift: a56da8fd67144d8b9f541afbccfaded122519f25
+  NSR_SDK_v3_swift: 9cc6606373bc19af72431f08bcb378f3383f2efc
 
 PODFILE CHECKSUM: fd4df552da1b1a8712ceef7487201521f253c4d2
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.10.1
